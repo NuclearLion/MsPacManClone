@@ -11,7 +11,7 @@ public class TurningPoint : MonoBehaviour
     {
         vectToNextPoint = new Vector2[nextPoints.Length];
 
-        for(int i = 1; i < nextPoints.Length; i++)
+        for(int i = 0; i < nextPoints.Length; i++)
         {
             TurningPoint nextPoint = nextPoints[i];
 
